@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+//import 'package:shared_preferences/shared_preferences.dart';
 
 import './notes.dart';
 
@@ -14,9 +14,6 @@ class NoteApp extends StatefulWidget {
 }
 
 class _NoteAppState extends State<NoteApp> {
-
-
-
 
   @override
   Widget build(BuildContext context) {
