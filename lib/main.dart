@@ -39,7 +39,9 @@ class _NoteAppState extends State<NoteApp> {
             child: const Text('Salva nota'),
           ),
           //qui vanno inserite le note recuperate da notes.dart
-          //Notes(nota),
+          Note('first note'),
+          Note('second note'),
+          Note('third note'),
         ]),
       ),
     );

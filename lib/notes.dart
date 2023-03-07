@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Notes extends StatelessWidget {
-  final VoidCallback notes;
+class Note extends StatelessWidget {
+  String nota;
 
-  Notes(this.notes);
+  Note(this.nota);
 
   @override
   Widget build(BuildContext context){
-    return const Text('ciao');
+    return Text(nota);
   }
 }
